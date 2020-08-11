@@ -1,6 +1,6 @@
 # TailwindCSS named groups
 
-TailwindCSS pluing that adds named groups to the group variant. This solves the issue of having nested `.group` classes
+TailwindCSS pluing that adds named groups to the group variant. This is handy if you have nested groups hovers.
 
 ![idle](images/idle.png)
 ![foo-hover](images/foo.png)
@@ -64,7 +64,7 @@ Will result into this:
 
 ## Extra
 
-`group-focus` is also supported.
+`group-focus` is also supported. Although, I don't think is necessary.
 
 This plugin respects the group-hover and group-focus variants, so you must have them enabled where you want to use named groups:
 
