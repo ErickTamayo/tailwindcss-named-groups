@@ -1,0 +1,29 @@
+{
+  "name": "tailwindcss-named-groups",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickTamayo/tailwindcss-named-groups.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "groups",
+    "plugin"
+  ],
+  "author": "Erick Tamayo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErickTamayo/tailwindcss-named-groups/issues"
+  },
+  "homepage": "https://github.com/ErickTamayo/tailwindcss-named-groups#readme",
+  "dependencies": {
+    "postcss-selector-parser": "^6.0.2",
+    "tailwindcss": "^1.6.2"
+  }
+}
