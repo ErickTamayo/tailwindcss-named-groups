@@ -1,6 +1,6 @@
 # TailwindCSS named groups
 
-TailwindCSS pluing that adds named groups to the group variant
+TailwindCSS pluing that adds named groups to the group variant. This solves the issue of having nested `.group` classes
 
 ![idle](images/idle.png)
 ![foo-hover](images/foo.png)
