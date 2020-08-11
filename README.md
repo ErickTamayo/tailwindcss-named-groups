@@ -64,7 +64,7 @@ Will result into this:
 
 ## Extra
 
-`group-focus` is also supported. Although, I don't think is necessary.
+`group-focus` is also supported.
 
 This plugin respects the group-hover and group-focus variants, so you must have them enabled where you want to use named groups:
 
@@ -73,8 +73,8 @@ This plugin respects the group-hover and group-focus variants, so you must have 
 module.exports = {
   // ...
   variants: {
-    // Now you can use named groups in textColor
-    textColor: ["responsive", "hover", "focus", "group-hover"],
+    // Now you can use named groups in textColor for hover and focus
+    textColor: ["responsive", "hover", "focus", "group-hover", "group-focus"],
   },
 };
 ```
