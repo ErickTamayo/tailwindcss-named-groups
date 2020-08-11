@@ -46,12 +46,12 @@ module.exports = {
 Having the named groups as `foo` and `bar`:
 
 ```html
-<div className="group-foo bg-white hover:bg-blue-500 ...">
-  <p className="text-gray-900 group-foo-hover:text-white ...">
+<div class="group-foo bg-white hover:bg-blue-500 ...">
+  <p class="text-gray-900 group-foo-hover:text-white ...">
     New Project
   </p>
-  <div className="group-bar bg-gray-100 hover:bg-green-500 ...">
-    <p className="text-gray-500 group-bar-hover:text-white ...">
+  <div class="group-bar bg-gray-100 hover:bg-green-500 ...">
+    <p class="text-gray-500 group-bar-hover:text-white ...">
       Create a new project from a variety of starting templates.
     </p>
   </div>
