@@ -16,9 +16,10 @@ npm install tailwindcss-named-groups --save-dev
 yarn add --dev tailwindcss-named-groups
 ```
 
-Add the plugin to the `plugins` array
+Add the plugin to the `plugins` array of the tailwind config file.  
 
 ```js
+// tailwind.config.js
 module.exports = {
   // ...
 
@@ -32,6 +33,7 @@ module.exports = {
 Then create your named groups in the config
 
 ```js
+// tailwind.config.js
 module.exports = {
   theme: {
     // ...
