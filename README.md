@@ -1,6 +1,6 @@
 # TailwindCSS named groups
 
-TailwindCSS pluing that adds named groups to the group variant. This is handy if you have nested groups hovers.
+TailwindCSS plugin that adds named groups to the group variant. This is handy if you have nested groups hovers.
 
 ![idle](images/idle.png)
 ![foo-hover](images/foo.png)
