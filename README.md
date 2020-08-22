@@ -30,7 +30,7 @@ module.exports = {
 };
 ```
 
-Then create your named groups in the config
+Then create your named groups in the config (no need to type group-, that will be prepended for you).
 
 ```js
 // tailwind.config.js
@@ -38,6 +38,7 @@ module.exports = {
   theme: {
     // ...
     namedGroups: ["foo", "bar"],
+    // will result in group-foo and group-bar being available in addition to the base group
   },
   // ...
 };
